@@ -1,0 +1,15 @@
+/* pages/guanyu/guanyu.wxss */
+page{
+  display: flex;
+  justify-content: center;
+}
+.help-page {
+  display: inline-block;
+  width: 98%;
+  height: 50%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.help-page button{
+ background-color: white;
+}

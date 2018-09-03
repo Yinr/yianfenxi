@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="usermotto">
+  <swiper class="swiper-dock" indicator-dots="{{indicatorDots}}" indicator-color='#ccccff' indicator-active-color='#00cc66' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{Pic}}" wx:key="this">
+      <swiper-item >
+      <view class="{{item.style}}" bindtap="{{item.href}}" data-id="{{item.id}}" data-name="item-name">
+      <image src="{{item.url}}" class="swiper-pic" mode='scaleFill'></image>
+       </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view id='br'>请点击需要的功能<span></span></view>
+  <view class='bottom-box'>
+    <view class='bottom-box-heng1'>
+    <view bindtap="zhongyao">
+      <image class='bottom-box-pic1' src='/images/zhongyao.png' mode='scaleToFill'/>
+      <view>中药</view></view>
+      <view bindtap='chufang'>
+       <image class='bottom-box-pic2' src='/images/chufang.png' mode='scaleToFill'/>
+       <view>处方</view></view>
+      </view>
+    <view class='bottom-box-heng2'>
+    <view bindtap='fangji'>
+      <image class='bottom-box-pic3' src='/images/fangji.png' mode='scaleToFill'/>
+      <view>方剂</view></view>
+      <view bindtap='fenxi'>
+       <image class='bottom-box-pic4' src='/images/fenxi.png' mode='scaleToFill'/>
+       <view>分析</view></view>
+      </view>
+  </view>
+</view>

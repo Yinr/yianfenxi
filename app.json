@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guanyu/guiding/guiding",
+    "pages/guanyu/guanyu",
+    "pages/guanyu/help/help",
+    "pages/guanyu/feedback/feedback",
+    "pages/guanyu/update/update",
+    "pages/zhongyao/zhongyao",
+    "pages/fangji/fangji",
+    "pages/chufang/chufang",
+    "pages/fenxi/fenxi",
+    "pages/logs/logs",
+    "pages/zhongyao/zhongyao-detail/zhongyao-detail",
+    "pages/fangji/fangji-detail/fangji-detail",
+    "pages/chufang/chufang-detail/chufang-detail",
+    "pages/swiper-news/swiper-news-1/swiper-news-1",
+    "pages/swiper-news/swiper-news-2/swiper-news-2"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#ddd",
+    "navigationBarBackgroundColor": "eebde5",
+    "navigationBarTitleText": "医案分析",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "60cd30",
+    "backgroundColor": "#fdf3fe",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouyexuanzhong.png"
+      },
+      {
+        "pagePath": "pages/guanyu/guanyu",
+        "text": "帮助",
+        "iconPath": "/images/guanyu.png",
+        "selectedIconPath": "/images/guanyuxuanzhong.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

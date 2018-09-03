@@ -1,0 +1,9 @@
+<!--guanyu.html-->
+<view class='help-page'>
+  <view wx:for="{{Nav}}" wx:key="*this">
+  <navigator url="{{item.Navurl}}"><button bindtap="{{item.Navbtn}}" type="default" hover-class='defalut'>{{item.Navbutton}}</button></navigator>
+  </view>
+  <view>XXX小组制作，，，，
+  版权所有。。。。。。
+  </view>
+</view>

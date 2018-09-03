@@ -1,0 +1,39 @@
+<!--zhongyao-detail.wxml-->
+<view class='usermotto'>
+   <swiper class="swiper-dock" indicator-dots="{{indicatorDots}}" indicator-color='#ccccff' indicator-active-color='#00cc66' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{ZhongyaoInfo}}">
+      <swiper-item >
+      <view class="{{item.style}}" bindtap="{{item.href}}" data-id="{{item.id}}" data-name="item-name">
+      <scroll-view>
+        <view class='zhongyaolist'>
+          <view class='zhongyaodetail'>
+          <view>药名</view><view class='zhognyaoinput'>{{item.name}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>别名</view><view class='zhognyaoinput'>{{item.nickname}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>类别</view><view class='zhognyaoinput'>{{item.zyclass}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>药性</view><view class='zhognyaoinput'>{{item.yaoxing}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>药味</view><view class='zhognyaoinput'>{{item.yaowei}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>来源</view><view class='zhognyaoinput'>{{item.laiyuan}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>部位</view><view class='zhognyaoinput'>{{item.buwei}}</view>
+          </view>
+          <view class='zhongyaodetail'>
+          <view>功效</view><view class='zhognyaoinput'>{{item.gongxiao}}</view>
+          </view>
+        </view>
+      </scroll-view>
+       </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,160 @@
+/* pages/fangji/fangji.wxss */
+page{
+  display: flex;
+  justify-content:center ;
+  height: 100%;
+  width: 100%;
+  background-image: none;
+  background-size: 100% 100%;
+  background-color: white;
+}
+.container {
+  display: block;
+  margin-top: 0;
+  top: 0px;
+  align-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.header{
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: 2.282rem;
+  background-color: #f2f2f2;
+  z-index: -2;
+}
+.search_logo{
+  display: flex;
+  top: 14%;
+  left: 6%;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-size: 10%;
+  position: absolute;
+}
+.search_logo image{
+  display: flex;
+  left: 6%;
+  width: 1.4rem;
+  height: 1.4rem;
+  position: absolute;
+  top: 3px;
+}
+.header input{
+  position: relative;
+  display: block;
+  top: 18%;
+  width: 64%;
+  left: 5%;
+  height: 60%;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  background: rgb(221, 220, 220);
+  padding-left: 8%;
+  font-size: 12px;
+  color: #f3f3f3;
+  z-index: -1;
+}
+.search_button{
+  position: absolute;
+  right: 3%;
+  width: 18%;
+  height: 3%;
+  top:5px ;
+  font-size: 8px;
+}
+.search_button button{
+  font-size: 13px;
+}
+.header .h-city {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  line-height: 1.0;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #a8a8a8;
+}
+.header .h-city image {
+  width: 22rpx;
+  height: 27rpx;
+  margin-right: 16rpx;
+}
+
+.header .h-close image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.now-city {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f2f4f5;
+  font-size: 22rpx;
+	line-height: 1.0;
+	color: #a8a8a8;
+  padding: 18rpx 20rpx;
+  border-bottom: 1rpx solid #dbdbdb;
+}
+.now-city .now-city-name {
+  display: flex;
+  background: white;
+  font-size: 30rpx;
+	line-height: 1.0;
+	letter-spacing: 0.4rpx;
+	color: #333333;
+  padding: 13rpx 33rpx;
+  border: solid 1rpx #dbdbdb;
+  margin-top: 18rpx;
+}
+
+.alphabet-list {
+
+}
+.alphabet-list .section-item {
+
+}
+.alphabet-list .section-item .section-item-header {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+	color: #a8a8a8;
+	background-color: #f2f4f5;
+  padding: 4rpx 20rpx;
+}
+
+.alphabet-list .section-item .section-item-cells {
+  padding-left: 20rpx;
+}
+.alphabet-list .section-item .section-item-cells .section-item-cell{
+  font-size: 30rpx;
+	line-height: 1.0;
+	color: #333333;
+  padding: 29rpx 0;
+}
+.border-bottom {
+  border-bottom: 1rpx solid #dbdbdb;
+}
+.alphanet-selector {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  box-sizing: border-box;
+}
+.alphanet-selector .selector-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+	color: #43c1f4;
+  padding: 3px 3px;
+  height: 12px;
+}
